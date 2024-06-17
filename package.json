@@ -1,0 +1,20 @@
+{
+  "name": "copernican-system",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "react-scripts start"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@react-three/drei": "^9.99.4",
+    "@react-three/fiber": "^8.15.16"
+  },
+  "devDependencies": {
+    "vite": "^5.1.4"
+  }
+}

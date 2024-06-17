@@ -1,0 +1,5 @@
+https://github.com/franky-adl/threejs-earth
+https://www.solarsystemscope.com/textures/
+https://dev.to/sulaimonolaniran/building-a-simple-quiz-with-html-css-and-javascript-4elp
+https://docs.pmnd.rs/react-three-fiber/getting-started/examples
+

@@ -1,0 +1,287 @@
+/* body {
+  overflow: hidden;
+  
+} */
+
+body {
+  background-image: url('../assets/SourceImages/background/2k_stars_milky_way.jpg');
+  background-size: cover;
+}
+
+.container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: #ffffff;
+  overflow: hidden
+}
+
+
+.background {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url('./assets/SourceImages/background/2k_stars_milky_way.jpg');
+  background-size: cover;
+  background-position: center;
+  z-index: -1;
+}
+
+.button-container2 {
+  position: fixed;
+  bottom: 20px; /* Adjust the distance from the bottom */
+  left: 50%; /* Center horizontally */
+  transform: translateX(-50%);
+  width: 120px;
+  height: 30px;
+  z-index: 99;
+  background-color: blue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  border: none;
+  color: #fff;
+  border-radius: 5px;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+.button-Orbit {
+  position: fixed;
+  bottom: 20px; /* Adjust the distance from the bottom */
+  left: 80px; 
+  transform: translateX(-50%);
+  width: 120px;
+  height: 30px;
+  z-index: 99;
+  background-color: red;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  border: none;
+  color: #fff;
+  border-radius: 5px;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+.button-TopView {
+  position: fixed;
+  bottom: 20px; /* Adjust the distance from the bottom */
+  left: 600px; 
+  transform: translateX(-50%);
+  width: 200px;
+  height: 30px;
+  z-index: 99;
+  background-color: yellow;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  border: none;
+  color: #000;
+  border-radius: 5px;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+
+
+.button-DiffPersp {
+  position: fixed;
+  bottom: 20px; /* Adjust the distance from the bottom */
+  left: 350px; 
+  transform: translateX(-50%);
+  width: 200px;
+  height: 30px;
+  z-index: 99;
+  background-color: green;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  border: none;
+  color: #fff;
+  border-radius: 5px;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+.button-container {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  width: 100px;
+  height: 25px;
+  z-index: 98;
+  background-color: rgba(255, 255, 255, 0);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden
+  /* padding-top: 100px; */
+}
+
+
+.popup-heading {
+  color: #000000;
+  font-family: Helvetica;
+}
+
+.popup-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 999; /* Ensure the popup is above other content */
+}
+
+.popup-content {
+  background-color: #fff;
+  padding: 40px;
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+  text-align: center;
+  max-width: 80%;
+  overflow: auto;
+}
+
+
+
+.popupStyle {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+
+.canvas {
+  position: relative;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden; 
+
+}
+
+.modal {
+  /* position: fixed; */
+  z-index: 1000;
+  width: 300px;
+  height: 420px;
+  background-color: rgba(218, 135, 53, 0.05);
+  border: 1px solid #000000; 
+  border-radius: 4px;
+  padding: 10px;
+  padding-left: 50px; 
+  padding-top: 400px;
+  font-family: Helvetica; 
+  overflow: hidden;
+}
+
+
+  
+  .modal-content {
+    padding-left: 20px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 80%;
+    overflow-y: hidden;
+    font: 'Helvetica';
+  }
+
+  .modal-content h2 {
+    font-size: 30px;
+    padding-bottom: 10px;
+    padding-top: 15px;
+    font: 'Helvetica';
+  }
+
+  
+  .planet-buttons {
+    display: flex;
+    flex-direction: column;
+    font: 'Helvetica';
+
+  }
+  
+  .planet-button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    padding: 8px;
+    margin: 4px 0;
+    text-align: left;
+    font: 'Helvetica';
+
+  }
+  
+  .planet-button:hover {
+    background-color: #ddd;
+    width: 270px;
+  }
+  
+
+
+.planet-button-wrapper {
+  position: relative;
+  display: inline-block;
+  margin-right: 10px; /* Adjust margin as needed */
+}
+
+.planet-dropdown {
+  position: absolute;
+  top: 100%; 
+  left: 0;
+  background-color: #fff;
+  padding: 5px;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.planet-dropdown ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.planet-dropdown ul li {
+  margin-bottom: 5px;
+}
+
+.h3 {
+  color: #000000; 
+  font-family: Helvetica; 
+  margin-top: 0;
+}
+.custom-button {
+  background-color: #ffeb11; /* This is a coral color, you can replace it with any color you prefer */
+  color: #000000; /* Text color */
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  margin: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.custom-button:hover {
+  background-color: #0056b3;
+}
